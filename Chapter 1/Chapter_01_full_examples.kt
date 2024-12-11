@@ -237,5 +237,5 @@ fun main() {
     for (line in lines) {
         outputFile.appendText("$line\n")
     }
-    println("Copied input_file.txt to output_file.txt")
+    println("Copied inputfile.txt to outputfile.txt")
 }
