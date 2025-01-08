@@ -1,0 +1,22 @@
+This file will list errors reported by readers or detected after publication of the book Kotlin from Scratch.
+If you want to report an error, you can send an email to: errata@nostarch.com
+
+Identified errors/typos:
+
+1. P35: Add ":" after "greet" in the first example of lambda expressions. The correct code is:
+   val greet: (String) -> String = { name -> "Hello, $name!" }
+
+2. P40: There are a couple of typos ("_") in the last line of the code example. The correct code is:
+   println("Copied inputfile.txt to outputfile.txt")
+
+3. P176: There is a typo right after "scroll" is created. The correct code is:
+   scroll.content = root
+
+4. P170: In the 2nd-last paragraph from the bottom of the page, it says that "Both of these functions 
+   call the singleXYChart() function (which we discussed and used in Chapter 3)." While Chapter 3 
+   presents examples of drawing bar and line charts, this exact function is not discussed there. 
+   However, the full function is included in the GitHub repository (see Project 16 under Chapter 4).
+  
+   Note: The same function name is also used in Chapter 5. This version of the function is used for
+   plotting a single line chart per plot. However, the version required for Project 16 in Chapter 4
+   (as shared on GitHub) is for plotting multiple line charts on the same plot.
