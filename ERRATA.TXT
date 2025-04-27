@@ -9,7 +9,7 @@ Identified errors/typos:
 2. P40: There are a couple of typos ("_") in the last line of the code example. The correct code is:
    println("Copied inputfile.txt to outputfile.txt")
 
-3. P176: There is a typo right after "scroll" is created. The correct code is:
+3. P167: There is a typo right after "scroll" is created. The correct code is:
    scroll.content = root
 
 4. P170: In the 2nd-last paragraph from the bottom of the page, it says that "Both of these functions 
@@ -20,3 +20,5 @@ Identified errors/typos:
    Note: The same function name is also used in Chapter 5. This version of the function is used for
    plotting a single line chart per plot. However, the version required for Project 16 in Chapter 4
    (as shared on GitHub) is for plotting multiple line charts on the same plot.
+
+5. P210: The denominator in Equation 5.24 should be r^2 (r squared), not r sub 2.
